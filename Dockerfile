@@ -1,5 +1,5 @@
 FROM centos:centos7
-ARG SOURCE_URL=http://www.grandstream.com/hubfs/IoT%20Team/GWN_Manager-1.0.22.23.tar.gz
+ARG SOURCE_URL=http://www.grandstream.com/hubfs/IoT%20Team/GWN_Manager-1.1.26.11.tar.gz
 
 RUN yum -y update && \
     yum -y install epel-release sysvinit-tools jemalloc libaio glibc-devel fontconfig xorg-x11-font-utils freetype curl openssl && \
